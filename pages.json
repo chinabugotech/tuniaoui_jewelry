@@ -1,0 +1,45 @@
+{
+  "easycom": {
+    "^tn-(.*)": "@/tuniao-ui/components/tn-$1/tn-$1.vue"
+  },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "珠宝首饰"
+			}
+		},
+    {
+      "path": "pages/details/details",
+      "style": {
+      	"navigationBarTitleText": "产品详情"
+      }
+    },
+    {
+      "path": "pages/payment/payment",
+      "style": {
+      	"navigationBarTitleText": "产品详情"
+      }
+    },
+    {
+      "path": "pages/order/order",
+      "style": {
+      	"navigationBarTitleText": "全部订单"
+      }
+    },
+    {
+      "path": "pages/order/order-details",
+      "style": {
+      	"navigationBarTitleText": "订单详情"
+      }
+    }
+	],
+	"globalStyle": {
+    "navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "图鸟UI+首饰",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
